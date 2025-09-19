@@ -1,3 +1,6 @@
 #!/bin/bash
 echo "please enter your password"
-read PIN_NUMBER
+read -s PIN_NUMBER
+
+#output password 
+echo $PIN_NUMBER
