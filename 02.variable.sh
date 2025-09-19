@@ -8,7 +8,7 @@
 PERSON1="Trump"
 PERSON2="Modi"
 
-echo "$PERSON1:: Hello $PERSON2"
+echo "$PERSON1:: Hello $PERSON2."
 echo "$PERSON2:: Hi $PERSON1 How are you?"
 echo "$PERSON1:: fine how about u?"
-echo "$PERSON2:: fine"
+echo "$PERSON2:: fine."
