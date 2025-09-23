@@ -9,4 +9,5 @@ do
         echo $i 
     else 
         exit 1
+    fi    
 done
