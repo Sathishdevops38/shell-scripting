@@ -15,7 +15,7 @@ mkdir -p $LOGS_FOLDER
 echo "script started executed at: $(date)" | tee -a $LOG_FILE
 
 if [ $USERID -ne 0 ]; then
-    echo -e "$G ERROR:: $N Please run this script with root privelege"
+    echo -e "$R ERROR:: $N Please run this script with root privelege"
     exit 1 # failure is other than 0
 fi
 
