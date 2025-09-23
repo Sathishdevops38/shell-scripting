@@ -5,7 +5,7 @@ read even
 
 for i in $even
 do
-    if [ $($i/2) -eq 0 ]; then
+    if [ $(($i % 2)) -eq 0 ]; then
         echo $i 
     else 
         exit 1
