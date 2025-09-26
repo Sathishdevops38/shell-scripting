@@ -1,7 +1,7 @@
 #!/bin/bash
 add(){
     echo "adding two numbers passed by user"
-    add = ( $1 + $2 )
+    add =  $1 + $2 
     echo "total of two num is: $add"
 }
 
